@@ -16,7 +16,7 @@ class MovieSerializer(serializers.ModelSerializer):
         return value
     
     def validate_resume(self, value):
-        if len(value) > 20:
+        if len(value) < 20:
             raise serializers.ValidationError('O resumo deve ter pelo menos 20 caracteres.')
         return value
 
