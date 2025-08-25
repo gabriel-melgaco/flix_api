@@ -17,6 +17,8 @@ API RESTful desenvolvida com **Django** e **Django REST Framework (DRF)** para g
 - **Autenticação**:
   - Registro e login de usuários
   - Geração de tokens para segurança da API
+  - JWT (JSON Web Token)
+  - Permissão de Usuários
 - **Filmes**:
   - CRUD completo
   - Relacionamento com gêneros, atores e reviews
@@ -74,7 +76,7 @@ python manage.py runserver
 ```
 
 
-##🔗 Endpoints Principais
+## 🔗 Endpoints Principais
 - /api/v1/movies/ – Gerenciamento de filmes
 - /api/v1/genres/ – Gerenciamento de gêneros
 - /api/v1/actors/ – Gerenciamento de atores
