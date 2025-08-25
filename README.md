@@ -43,9 +43,9 @@ flix_api/ ├── actors/ ├── authentication/ ├── genres/ ├─�
 
 ## ▶️ Como Executar o Projeto
 1. **Clone o repositório**:
-   ```bash
-   git clone https://github.com/gabriel-melgaco/flix_api.git
-   cd flix_api
+```bash
+git clone https://github.com/gabriel-melgaco/flix_api.git
+cd flix_api
 ```
 
 2. **Crie e ative o ambiente virtual:**
