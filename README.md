@@ -81,3 +81,4 @@ python manage.py runserver
 - /api/v1/genres/ – Gerenciamento de gêneros
 - /api/v1/actors/ – Gerenciamento de atores
 - /api/v1/reviews/ – Gerenciamento de reviews
+- /api/v1/movies/stats - Estatísticas de filmes
